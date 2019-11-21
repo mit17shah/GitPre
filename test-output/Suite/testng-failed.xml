@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="Info.Analyticaa.Listeners"/>
+  </listeners>
+  <test name="Titlepagebar(failed)" preserve-order="true">
+    <classes>
+      <class name="Info.Analyticaa.Titlepage">
+        <methods>
+          <include name="before"/>
+          <include name="Title"/>
+          <include name="after"/>
+        </methods>
+      </class> <!-- Info.Analyticaa.Titlepage -->
+      <class name="Info.Analyticaa.Landingpage">
+        <methods>
+          <include name="Before"/>
+          <include name="After"/>
+        </methods>
+      </class> <!-- Info.Analyticaa.Landingpage -->
+    </classes>
+  </test> <!-- Titlepagebar(failed) -->
+</suite> <!-- Failed suite [Suite] -->

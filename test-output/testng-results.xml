@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="29372" started-at="2019-11-19T07:27:09Z" finished-at="2019-11-19T07:27:38Z">
+    <groups>
+    </groups>
+    <test name="Titlepagebar" duration-ms="12833" started-at="2019-11-19T07:27:09Z" finished-at="2019-11-19T07:27:22Z">
+      <class name="Info.Analyticaa.Titlepage">
+        <test-method status="PASS" signature="before()[pri:0, instance:Info.Analyticaa.Titlepage@9711b]" name="before" is-config="true" duration-ms="9412" started-at="2019-11-19T12:57:09Z" finished-at="2019-11-19T12:57:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="FAIL" signature="Title()[pri:0, instance:Info.Analyticaa.Titlepage@9711b]" name="Title" duration-ms="3207" started-at="2019-11-19T12:57:18Z" finished-at="2019-11-19T12:57:22Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Fill out this form and we’ll get back to you soon] but found [Fill out this form and we’ll get back to you soon.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Fill out this form and we’ll get back to you soon] but found [Fill out this form and we’ll get back to you soon.]
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:489)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:171)
+	at org.testng.Assert.assertEquals(Assert.java:181)
+	at Info.Analyticaa.Titlepage.Title(Titlepage.java:30)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:715)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:907)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1237)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:51)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:85)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1197)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1122)
+	at org.testng.TestNG.run(TestNG.java:1030)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Title -->
+        <test-method status="PASS" signature="after()[pri:0, instance:Info.Analyticaa.Titlepage@9711b]" name="after" is-config="true" duration-ms="191" started-at="2019-11-19T12:57:22Z" finished-at="2019-11-19T12:57:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- Info.Analyticaa.Titlepage -->
+    </test> <!-- Titlepagebar -->
+    <test name="Landingpagebar" duration-ms="16508" started-at="2019-11-19T07:27:22Z" finished-at="2019-11-19T07:27:38Z">
+      <class name="Info.Analyticaa.Landingpage">
+        <test-method status="PASS" signature="Before()[pri:0, instance:Info.Analyticaa.Landingpage@ee68d8]" name="Before" is-config="true" duration-ms="6985" started-at="2019-11-19T12:57:22Z" finished-at="2019-11-19T12:57:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before -->
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:0, instance:Info.Analyticaa.Landingpage@ee68d8]" name="Login" duration-ms="4459" started-at="2019-11-19T12:57:29Z" data-provider="getData" finished-at="2019-11-19T12:57:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firstusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firstlastname]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:0, instance:Info.Analyticaa.Landingpage@ee68d8]" name="Login" duration-ms="4990" started-at="2019-11-19T12:57:33Z" data-provider="getData" finished-at="2019-11-19T12:57:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[secondusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secondlastname]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="After()[pri:0, instance:Info.Analyticaa.Landingpage@ee68d8]" name="After" is-config="true" duration-ms="67" started-at="2019-11-19T12:57:38Z" finished-at="2019-11-19T12:57:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After -->
+      </class> <!-- Info.Analyticaa.Landingpage -->
+    </test> <!-- Landingpagebar -->
+  </suite> <!-- Suite -->
+</testng-results>

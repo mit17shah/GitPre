@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+<listener class-name="Info.Analyticaa.Listeners"/>
+</listeners>
+  <test thread-count="5" name="Titlepagebar">
+    <classes>
+      <class name="Info.Analyticaa.Titlepage"/>
+      </classes>
+      </test>
+      
+      <test thread-count="5" name="Landingpagebar">
+    <classes>
+      <class name="Info.Analyticaa.Landingpage"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
